@@ -109,7 +109,7 @@
         <repository>
             <id>nexus-releases</id>
             <name>WSO2 Nexus Release Repository</name>
-            <url>http://maven.wso2.org/nexus/service/local/staging/deploy/maven2/</url>
+            <url>http://10.100.1.124:8081/nexus/service/local/staging/deploy/maven2/</url>
         </repository>
         <snapshotRepository>
             <id>wso2.snapshots</id>
@@ -129,9 +129,9 @@
     </mailingLists>
 
     <scm>
-        <connection>scm:git:https://github.com/wso2/carbon-parent.git</connection>
-        <url>https://github.com/wso2/carbon-parent.git</url>
-        <developerConnection>scm:git:https://github.com/wso2/carbon-parent.git</developerConnection>
+        <connection>scm:git:https://github.com/supunmalinga/carbon-parent.git</connection>
+        <url>https://github.com/supunmalinga/carbon-parent.git</url>
+        <developerConnection>scm:git:https://github.com/supunmalinga/carbon-parent.git</developerConnection>
     </scm>
 
     <build>
